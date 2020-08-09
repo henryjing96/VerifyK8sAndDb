@@ -1,0 +1,17 @@
+mysql:
+  ip: read.in.iwiki
+  port: read.in.iwiki
+  user: read.in.iwiki
+  passwd: read.in.iwiki
+  db: gpu_new_test_chongqing
+
+k8sCluster:
+  configPath: read.in.iwiki
+  filteredNS: [test-titan-test, test-king-resource-test]
+
+alert:
+  chatid: [henryjing]
+  style: single
+
+isFilterNewVK: true
+  
